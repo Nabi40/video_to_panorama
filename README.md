@@ -6,8 +6,6 @@
 This project extracts frames from a video and stitches them into a single wide **panoramic image**.  
 It uses **SIFT feature matching** and **homography transformations** to align and merge frames captured at different moments into a cohesive panorama.
 
----
-
 
 ------
 
