@@ -8,13 +8,6 @@ It uses **SIFT feature matching** and **homography transformations** to align an
 
 ---
 
-## 📌 How It Works
-
-### 1. Download Video  
-- Downloads a sample video from a remote URL into the `video/` directory:
-```python
-!wget -P video/ "https://ml-hiring.fringecore.sh/capture_the_scene/video.mp4"
-
 
 ------
 
@@ -42,6 +35,20 @@ It uses **SIFT feature matching** and **homography transformations** to align an
 -  Fails gracefully if not enough features or matches are found   
 
 -  Hardcoded frame count limit and resolution (can be tuned)
+
+
+----
+
+
+## 📌 How It Works
+
+### 1. Download Video  
+- Downloads a sample video from a remote URL into the `video/` directory:
+```python
+!wget -P video/ "https://ml-hiring.fringecore.sh/capture_the_scene/video.mp4"
+
+
+
 
 
 
